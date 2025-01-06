@@ -1,0 +1,10 @@
+class BankAccount:
+    def __init__(self, account_holder, initial_balance=0.0):
+        """Initialize the bank account with a holder's name and an initial balance."""
+        self.account_holder = account_holder
+        self.balance = initial_balance
+
+    def deposit(self, amount):
+        """Deposit an amount into the account."""
+        if amount > 0:
+            self
